@@ -1,0 +1,90 @@
+#box {
+    background-color:blue;
+}
+.my-class{
+    color:red;
+}
+button{
+    background-color:green;
+}
+#lonly{
+    text-align:center;
+    text-transform:capitalize;
+}
+#no{
+    font-family: "Times New Roman", serif;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+#go{
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    border-radius: 50%;
+}
+#home{
+    
+    background-color:black;
+    height: 60px;
+    display: flex;
+    gap: 200px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+#home a {
+    text-decoration: none;  
+    color: white;
+}
+#search{
+    button{
+        background-color:yellow;
+    }
+}
+#ok1{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(237, 32, 32);
+    border-radius: 50%;
+    border: 20px solid greenyellow;
+    position :absolute;
+    top: 170px;
+    left: 15px;
+    right: 0px;
+}
+#ok2{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(241, 241, 30);
+    border-radius: 50%;
+    position :absolute;
+    top: 270px;
+    left: 15px;
+    border: 20px solid greenyellow;
+} 
+ #ok3{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(19, 149, 19);
+    border-radius: 50%;
+    position :absolute;
+    top: 370px;
+    left: 15px;
+    border: 20px solid greenyellow;
+}
+#foot{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(57, 57, 215);
+    text-align: center;
+    padding: 10px;
+    position :absolute;
+    top: 600px;
+}
+.my-90l{
+    position : relative; 
+    bottom:0px;
+}
