@@ -3,10 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testing and learning html</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <img src="https://www.techsmith.com/wp-content/uploads/2023/08/What-are-High-Resolution-Images.png" alt="High Resolution Images" height="200px" width="300px">
+    <main class="page-shell">
+        <div class="hero-grid">
+            <div class="hero-left">
+                <h1 id="head1">My Portfolio</h1>
+
+                <div id="name">
+                    <h4>Name:</h4>
+                    <p>Lakshya Chowdhary</p>
+                </div>
+
+                <section class="card about-card">
+                    <h2>About Me</h2>
+                    <p>I am a student who is learning web development. I am currently a student in class 11th. I believe in setting smaller goals for the next 2-3 years and taking steady steps toward achieving them. My current goal is to join "Scaler School of Technology." I am preparing for the NSET exam while also building projects for my portfolio so admissions can see my interest in the field. I am managing both my studies and my learning journey.</p>
+                </section>
+            </div>
+
+            <aside class="photo-card card">
+                <h2>Photo</h2>
+                <div class="photo-frame">
+                    <img src="photo.jpeg" alt="Profile photo placeholder">
+                </div>
+            </aside>
+        </div>
+
+        <section class="card project-card">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li><a href="https://github.com/Lakshya625/class-marks" title="Open Class Marks">Class Marks</a></li>
+                <li><a href="https://github.com/Lakshya625/calculator" title="Open Calculator">Calculator</a></li>
+                <li><a href="https://github.com/Lakshya625/learning-java-script" title="Open Number Guessing Game">Number Guessing Game</a></li>
+                <li><a href="https://github.com/Lakshya625/text-analyzer" title="Open Text Analyzer">Text Analyzer</a></li>
+                <li><a href="https://github.com/Lakshya625/web-quiz" title="Open Web Quiz">Web Quiz</a></li>
+                <li><a href="https://github.com/Lakshya625/Expense-tracker" title="Open Expense Tracker">Expense Tracker</a></li>
+                <li><a href="https://github.com/Lakshya625/file-organiser" title="Open File Organiser">File Organiser</a></li>
+                <li><a href="https://github.com/Lakshya625/Contact-Book" title="Open Contact Book">Contact Book</a></li>
+                <li><a href="https://github.com/Lakshya625/to-do-list" title="Open To do list">To do list</a></li>
+                <li><a href="https://github.com/Lakshya625/password-generator" title="Open Password Generator">Password Generator</a></li>
+                <li><a href="https://github.com/Lakshya625/learning-html-css-Amazon-clone-only-visual" title="Open Amazon Clone">Amazon Clone</a></li>
+                <li><a href="https://github.com/Lakshya625/Portfolio" title="Open This Portfolio">This Portfolio</a></li>
+            </ul>
+        </section>
+
+        <section class="card skills-card">
+            <h2>Skills</h2>
+            <div class="skill-group">
+                <div>
+                    <h3>Learnt Skills</h3>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Github</p>
+                </div>
+                <div>
+                    <h3>Still Learning</h3>
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <h3>Want to Learn</h3>
+                    <p>How to build an A.I.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card contact-card">
+            <h2>Contact</h2>
+            <p class="contact-text">lakshyachowdhary44@gmail.com</p>
+        </section>
+    </main>
 </body>
 </html>
